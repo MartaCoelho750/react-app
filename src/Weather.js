@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import "./App.css";
 
 export default function Weather() {
   return (
@@ -91,6 +92,13 @@ export default function Weather() {
           <br />
         </div>
       </div>
+      <p>
+        {" "}
+        <a href="https://github.com/MartaCoelho750/react-app">
+          Open Source{" "}
+        </a>{" "}
+        By Marta Coelho{" "}
+      </p>
     </section>
   );
 }
