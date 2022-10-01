@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 import "./App.css";
 
 export default function Weather() {
@@ -46,7 +46,7 @@ export default function Weather() {
               2%
             </div>
             <div className="col" id="uv">
-              🌞
+              <span role="img">🌞</span>
             </div>
           </div>
         </nav>
@@ -57,35 +57,46 @@ export default function Weather() {
             <div className="col-1">
               <div className="col">Monday</div>
               14º/25º
-              <div className="col">🌞</div>
+              <div className="col">
+                <span role="img">🌞</span>
+              </div>
             </div>
           </nav>
           <nav className="futuretwo">
             <div className="col-1">
               <div className="col">Tuesday</div>
               10º/25º
-              <div className="col">⛅</div>
+              <div className="col">
+                <span role="img">⛅</span>
+              </div>
             </div>
           </nav>
           <nav className="futurethree">
             <div className="col-1">
               <div className="col">Wednesday</div>
               7º/18º
-              <div className="col">❄</div>
+              <div className="col">
+                {" "}
+                <span role="img">❄</span>
+              </div>
             </div>
           </nav>
           <nav className="futurefour">
             <div className="col-1">
               <div className="col">Thursday</div>
               14º/25º
-              <div className="col">🌤</div>
+              <div className="col">
+                <span role="img">🌤</span>
+              </div>
             </div>
           </nav>
           <nav className="futurefive">
             <div className="col-1">
               <div className="col">Friday</div>
               9º/21º
-              <div className="col">⛈</div>
+              <div className="col">
+                <span role="img">⛈</span>
+              </div>
             </div>
           </nav>
           <br />
