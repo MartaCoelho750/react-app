@@ -45,8 +45,8 @@ export default function Weather() {
             <div className="col" id="prec">
               2%
             </div>
-            <div className="col" id="uv">
-              <span role="img">🌞</span>
+            <div className="col">
+              <span role="img">⛈</span>
             </div>
           </div>
         </nav>
@@ -58,7 +58,7 @@ export default function Weather() {
               <div className="col">Monday</div>
               14º/25º
               <div className="col">
-                <span role="img">🌞</span>
+                <span role="img">⛈</span>
               </div>
             </div>
           </nav>
@@ -67,7 +67,7 @@ export default function Weather() {
               <div className="col">Tuesday</div>
               10º/25º
               <div className="col">
-                <span role="img">⛅</span>
+                <span role="img">⛈</span>
               </div>
             </div>
           </nav>
@@ -76,8 +76,7 @@ export default function Weather() {
               <div className="col">Wednesday</div>
               7º/18º
               <div className="col">
-                {" "}
-                <span role="img">❄</span>
+                <span role="img">⛈</span>
               </div>
             </div>
           </nav>
@@ -86,7 +85,7 @@ export default function Weather() {
               <div className="col">Thursday</div>
               14º/25º
               <div className="col">
-                <span role="img">🌤</span>
+                <span role="img">⛈</span>
               </div>
             </div>
           </nav>
